@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+.nav-bar {
+    background-color: rgb(25, 33, 41);
+    text-align: center;  
+}
+.top-link li {
+    display: inline-block;
+    padding: 0 100px;
+    
+}
+.top-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em; 
+}
+.header {
+    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+h1 {
+    font-size: 9em;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4em;
+    color: white;
+    text-shadow: #020819 8px -20px 9px;
+    margin-top: -210px;
+}
+.quote {
+    margin: 120px 0 0 150px;
+}
+.cur {
+    font-style: italic;
+    margin-bottom: -40px;
+}
+.quote-text {
+    font-size: 1.8em;
+}
+#general-information {
+    background-color: rgb(25, 33, 41);
+    color: white;
+    text-align: center;
+    height: 250px;
+}
+#general-information article {
+    display: inline-block;
+    width: 250px;
+    margin: auto 30px;
+}
+h3 {
+    font-family: 'Roboto Condensed';
+    font-size: 2.9em;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.text {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.link-btn {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    margin: 40px auto 0 auto;
+    padding: 14px 20px 14px 20px;
+    border: 2px black solid 0.2;
+}
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #eee;
+    margin: 30px 5% 30px 5%;
+    padding: 20px;
+    width: 420px;
+}
+.img {
+    width: 100px;
+}
+.col {
+    display: flex;
+    flex-direction: row; 
+}
+.clearfix {
+    overflow: hidden;
+    margin: auto 0 auto 140px;
+}
+h4 {
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    margin: -30px auto -15px auto;
+    text-align: center;
+}
+.service-box p {
+    font-size: 0.9em;
+    line-height: 30px;
+
+}
+.title {
+    padding: 0;
+}
+.team {
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+#team .section-text {
+    font-size: 1.9em;
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+    line-height: 30px;
+}
+hr {
+    width: 40%;
+    margin: 20px auto 30px auto;
+}
+.member-name {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: auto 120px;
+}
+.name-photo {
+    text-align: center;
+}
+.photo {
+    text-align: center;
+}
+.photo img {
+    margin: auto 65px 40px 65px;;
+}
+.schedule-table {
+    margin: 0 auto 40px auto;
+    font-size: 1.5em;
+}
+.line {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    padding: 5px 10px;
+}
+.style {
+    font-size: 1.7em;
+}
+.space {
+    text-align: center;
+}
+.slot-form-container {
+    width: 40%;
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    line-height: 15px;
+    font-size: 14px;
+}
+.form-input {
+    height: 20px;
+    outline: none;
+    padding: 3px;
+    width: 100%;
+    font-size: 12px;
+}
+.button-submit {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+    font-size: 12px;
+    background-color: rgb(235, 235, 235);
+    padding: 0 13px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: rgb(25, 33, 41);
+}
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.address {
+    color: white;
+    text-align: center;
+}
+h5 {
+    font-size: 12px;
+    color: white;
+}
+li {
+    list-style: none;
+}
+.link {
+    color: rgb(67, 163, 230);
+    text-decoration: none;
+    text-align: center;
+}
+.info-text {
+    margin-right: 200px;
+}
+.map-frame {
+    margin-top: 35px;
+    width: 180%;
+    height: 80%;
+}
